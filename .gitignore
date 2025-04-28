@@ -1,0 +1,89 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs
+logs/
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual environments
+.env/
+.venv/
+venv/
+ENV/
+env.bak/
+env/
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Pytest cache
+.cache/
+.pytest_cache/
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+nosetests.xml
+coverage.xml
+
+# Mypy and other static type tools
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# VSCode
+.vscode/
+
+# dotenv
+.env
+
+# OS and IDE files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Slide decks or AI outputs
+output.pptx
+*.pptx
+
+# YAML prompt responses
+responses/
+*.response.yml
+
+# Python packaging
+*.egg
+*.whl
+
+# Test results / scratch
+*.tmp
+*.bak
+*.swp
+
+# Pydantic schema artifacts (if exporting)
+schemas.json
+
+# Project files
+projecs/
+images/
+dev/
+
+# blog post
+blog_post.md

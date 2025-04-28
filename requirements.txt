@@ -1,0 +1,9 @@
+pydantic
+openai
+google
+anthropic
+PyYAML
+toml
+python-dotenv
+matplotlib
+nbformat
