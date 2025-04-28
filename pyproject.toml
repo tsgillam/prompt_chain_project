@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "prompt_chain_project"
+version = "0.1.0"
+description = "Template for structured prompt chain projects."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pydantic = "^2.0"
+openai = "*"
+google = "*"
+anthropic = "*"
+PyYAML = "*"
+toml = "*"
+python-dotenv = "*"
+matplotlib = "*"
+nbformat = "*"
+prompt_chain = { path = "../prompt_chain", develop = true }
+pptx_layout_engine = { path = "../pptx_layout_engine", develop = true }
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
