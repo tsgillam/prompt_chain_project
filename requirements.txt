@@ -1,3 +1,4 @@
+# Regular dependencies
 pydantic
 openai
 google
@@ -7,3 +8,7 @@ toml
 python-dotenv
 matplotlib
 nbformat
+
+# Editable installs (local paths or Git repos)
+-e file:///C:/Users/gillt/Documents/Python/prompt_chain
+-e file:///C:/Users/gillt/Documents/Python/pptx_layout_engine
